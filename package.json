@@ -1,17 +1,16 @@
 {
-  "name": "coursebundler",
+  "name": "coursemain",
   "version": "1.0.0",
-  "description": "Course Bundler by Koushik Dutta (6 Pack Programmer)",
+  "description": "",
   "type": "module",
   "main": "server.js",
-  "engines": {
-    "node": ">=14.20.1"
-  },
+  
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "author": "Koushik Dutta",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
