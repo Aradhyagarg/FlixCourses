@@ -1,6 +1,6 @@
 import { catchAsyncError } from "../middleware/catchAsyncError.js";
 import ErrorHandler from "../utils/errorHandler.js";
-import { instance } from "../server.js";
+import { instance } from "../config/razorpay.js";
 import { User } from "../models/UserModel.js";
 import { Payment } from "../models/PaymentModel.js";
 import crypto from "crypto";

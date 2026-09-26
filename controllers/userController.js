@@ -2,7 +2,7 @@ import { catchAsyncError } from "../middleware/catchAsyncError.js";
 import { User } from "../models/UserModel.js";
 import { Course } from "../models/CourseModel.js";
 import { Payment } from "../models/PaymentModel.js";
-import { instance } from "../server.js";
+import { instance } from "../config/razorpay.js";
 import ErrorHandler from "../utils/errorHandler.js";
 import { sendEmail } from "../utils/sendEmail.js";
 import { sendToken } from "../utils/sendToken.js";
